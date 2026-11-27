@@ -157,5 +157,10 @@ namespace test1
                 e.SuppressKeyPress = true;
             }
         }
+
+        private void txtSearch_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

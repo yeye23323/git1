@@ -42,6 +42,8 @@
             this.cmbSelectACUnit = new System.Windows.Forms.ComboBox();
             this.lblSelectAC = new System.Windows.Forms.Label();
             this.grpTerms = new System.Windows.Forms.GroupBox();
+            this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
+            this.lblInterestRate = new System.Windows.Forms.Label();
             this.btnPreviewSchedule = new System.Windows.Forms.Button();
             this.lblMonthlyDue = new System.Windows.Forms.Label();
             this.lblMonthlyDueTag = new System.Windows.Forms.Label();
@@ -64,6 +66,7 @@
             this.grpCustomer.SuspendLayout();
             this.grpACUnit.SuspendLayout();
             this.grpTerms.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.nudDownPayment)).BeginInit();
             this.grpSchedule.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvSchedulePreview)).BeginInit();
@@ -313,6 +316,8 @@
             // 
             // grpTerms
             // 
+            this.grpTerms.Controls.Add(this.numericUpDown1);
+            this.grpTerms.Controls.Add(this.lblInterestRate);
             this.grpTerms.Controls.Add(this.btnPreviewSchedule);
             this.grpTerms.Controls.Add(this.lblMonthlyDue);
             this.grpTerms.Controls.Add(this.lblMonthlyDueTag);
@@ -331,6 +336,31 @@
             this.grpTerms.TabIndex = 3;
             this.grpTerms.TabStop = false;
             this.grpTerms.Text = "3. Installment Terms and Calculation";
+            // 
+            // numericUpDown1
+            // 
+            this.numericUpDown1.DecimalPlaces = 2;
+            this.numericUpDown1.Location = new System.Drawing.Point(606, 72);
+            this.numericUpDown1.Maximum = new decimal(new int[] {
+            300000,
+            0,
+            0,
+            0});
+            this.numericUpDown1.Name = "numericUpDown1";
+            this.numericUpDown1.Size = new System.Drawing.Size(65, 23);
+            this.numericUpDown1.TabIndex = 12;
+            this.numericUpDown1.ThousandsSeparator = true;
+            this.numericUpDown1.ValueChanged += new System.EventHandler(this.numericUpDown1_ValueChanged);
+            // 
+            // lblInterestRate
+            // 
+            this.lblInterestRate.AutoSize = true;
+            this.lblInterestRate.Location = new System.Drawing.Point(525, 75);
+            this.lblInterestRate.Name = "lblInterestRate";
+            this.lblInterestRate.Size = new System.Drawing.Size(75, 15);
+            this.lblInterestRate.TabIndex = 11;
+            this.lblInterestRate.Text = "Interest Rate:";
+            this.lblInterestRate.Click += new System.EventHandler(this.lblInterestRate_Click);
             // 
             // btnPreviewSchedule
             // 
@@ -372,6 +402,7 @@
             this.lblRemainingBalance.Size = new System.Drawing.Size(60, 20);
             this.lblRemainingBalance.TabIndex = 7;
             this.lblRemainingBalance.Text = "P-------";
+            this.lblRemainingBalance.Click += new System.EventHandler(this.lblRemainingBalance_Click);
             // 
             // lblBalanceTag
             // 
@@ -569,6 +600,7 @@
             this.grpACUnit.PerformLayout();
             this.grpTerms.ResumeLayout(false);
             this.grpTerms.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.nudDownPayment)).EndInit();
             this.grpSchedule.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dgvSchedulePreview)).EndInit();
@@ -622,6 +654,8 @@
         private System.Windows.Forms.ComboBox cmbTechnician;
         private System.Windows.Forms.Button btnSaveContract;
         private System.Windows.Forms.Button btnCancel;
+        private System.Windows.Forms.NumericUpDown numericUpDown1;
+        private System.Windows.Forms.Label lblInterestRate;
     }
 }
 

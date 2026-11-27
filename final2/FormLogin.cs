@@ -117,5 +117,10 @@ namespace test1
                 btnLogin_Click(sender, e);
             }
         }
+
+        private void lblError_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

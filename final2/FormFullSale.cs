@@ -1,6 +1,7 @@
 using System;
 using System.Data;
 using System.Data.SqlClient;
+using System.Text.RegularExpressions;
 using System.Windows.Forms;
 
 namespace test1
@@ -313,6 +314,14 @@ namespace test1
 
         private void btnCompleteSale_Click(object sender, EventArgs e)
         {
+            //validate contact number format
+            if (!Regex.IsMatch(txtContactNumber.Text.Trim(), @"^09[0-9]{9}$"))
+            {
+                MessageBox.Show("Contact number must be 11 digits, numbers only, and start with 09 (e.g. 09171234567).", "Validation", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                txtContactNumber.Focus();
+                return;
+            }
+
             if (selectedItemId <= 0)
             {
                 MessageBox.Show("Please select an AC unit from the inventory.", "Validation", MessageBoxButtons.OK, MessageBoxIcon.Warning);

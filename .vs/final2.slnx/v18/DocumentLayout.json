@@ -1,0 +1,387 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\cian\\git1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B70216F7-3E87-4000-86F9-98F6AE40672A}|final2\\final2.csproj|D:\\cian\\git1\\final2\\formnewsale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B70216F7-3E87-4000-86F9-98F6AE40672A}|final2\\final2.csproj|solutionrelative:final2\\formnewsale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B70216F7-3E87-4000-86F9-98F6AE40672A}|final2\\final2.csproj|D:\\cian\\git1\\final2\\formnewsale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B70216F7-3E87-4000-86F9-98F6AE40672A}|final2\\final2.csproj|solutionrelative:final2\\formnewsale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B70216F7-3E87-4000-86F9-98F6AE40672A}|final2\\final2.csproj|D:\\cian\\git1\\final2\\formpaymentlog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B70216F7-3E87-4000-86F9-98F6AE40672A}|final2\\final2.csproj|solutionrelative:final2\\formpaymentlog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B70216F7-3E87-4000-86F9-98F6AE40672A}|final2\\final2.csproj|D:\\cian\\git1\\final2\\forminventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B70216F7-3E87-4000-86F9-98F6AE40672A}|final2\\final2.csproj|solutionrelative:final2\\forminventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B70216F7-3E87-4000-86F9-98F6AE40672A}|final2\\final2.csproj|D:\\cian\\git1\\final2\\forminstallations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B70216F7-3E87-4000-86F9-98F6AE40672A}|final2\\final2.csproj|solutionrelative:final2\\forminstallations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B70216F7-3E87-4000-86F9-98F6AE40672A}|final2\\final2.csproj|D:\\cian\\git1\\final2\\formcustomers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B70216F7-3E87-4000-86F9-98F6AE40672A}|final2\\final2.csproj|solutionrelative:final2\\formcustomers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B70216F7-3E87-4000-86F9-98F6AE40672A}|final2\\final2.csproj|d:\\cian\\git1\\final2\\formlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B70216F7-3E87-4000-86F9-98F6AE40672A}|final2\\final2.csproj|solutionrelative:final2\\formlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B70216F7-3E87-4000-86F9-98F6AE40672A}|final2\\final2.csproj|D:\\cian\\git1\\final2\\formlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B70216F7-3E87-4000-86F9-98F6AE40672A}|final2\\final2.csproj|solutionrelative:final2\\formlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B70216F7-3E87-4000-86F9-98F6AE40672A}|final2\\final2.csproj|D:\\cian\\git1\\final2\\formfullsale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B70216F7-3E87-4000-86F9-98F6AE40672A}|final2\\final2.csproj|solutionrelative:final2\\formfullsale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B70216F7-3E87-4000-86F9-98F6AE40672A}|final2\\final2.csproj|D:\\cian\\git1\\final2\\formsupplierportal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B70216F7-3E87-4000-86F9-98F6AE40672A}|final2\\final2.csproj|solutionrelative:final2\\formsupplierportal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B70216F7-3E87-4000-86F9-98F6AE40672A}|final2\\final2.csproj|D:\\cian\\git1\\final2\\formpurchaseorders.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B70216F7-3E87-4000-86F9-98F6AE40672A}|final2\\final2.csproj|solutionrelative:final2\\formpurchaseorders.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B70216F7-3E87-4000-86F9-98F6AE40672A}|final2\\final2.csproj|D:\\cian\\git1\\final2\\formpaymenttracker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B70216F7-3E87-4000-86F9-98F6AE40672A}|final2\\final2.csproj|solutionrelative:final2\\formpaymenttracker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B70216F7-3E87-4000-86F9-98F6AE40672A}|final2\\final2.csproj|D:\\cian\\git1\\final2\\formusers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B70216F7-3E87-4000-86F9-98F6AE40672A}|final2\\final2.csproj|solutionrelative:final2\\formusers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B70216F7-3E87-4000-86F9-98F6AE40672A}|final2\\final2.csproj|d:\\cian\\git1\\final2\\formmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B70216F7-3E87-4000-86F9-98F6AE40672A}|final2\\final2.csproj|solutionrelative:final2\\formmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B70216F7-3E87-4000-86F9-98F6AE40672A}|final2\\final2.csproj|D:\\cian\\git1\\final2\\formmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B70216F7-3E87-4000-86F9-98F6AE40672A}|final2\\final2.csproj|solutionrelative:final2\\formmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B70216F7-3E87-4000-86F9-98F6AE40672A}|final2\\final2.csproj|d:\\cian\\git1\\final2\\formpaymentlog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B70216F7-3E87-4000-86F9-98F6AE40672A}|final2\\final2.csproj|solutionrelative:final2\\formpaymentlog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B70216F7-3E87-4000-86F9-98F6AE40672A}|final2\\final2.csproj|d:\\cian\\git1\\final2\\formfullsale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B70216F7-3E87-4000-86F9-98F6AE40672A}|final2\\final2.csproj|solutionrelative:final2\\formfullsale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B70216F7-3E87-4000-86F9-98F6AE40672A}|final2\\final2.csproj|D:\\cian\\git1\\final2\\formmasterdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B70216F7-3E87-4000-86F9-98F6AE40672A}|final2\\final2.csproj|solutionrelative:final2\\formmasterdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B70216F7-3E87-4000-86F9-98F6AE40672A}|final2\\final2.csproj|D:\\cian\\git1\\final2\\databasehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B70216F7-3E87-4000-86F9-98F6AE40672A}|final2\\final2.csproj|solutionrelative:final2\\databasehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B70216F7-3E87-4000-86F9-98F6AE40672A}|final2\\final2.csproj|D:\\cian\\git1\\final2\\formcustomers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B70216F7-3E87-4000-86F9-98F6AE40672A}|final2\\final2.csproj|solutionrelative:final2\\formcustomers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B70216F7-3E87-4000-86F9-98F6AE40672A}|final2\\final2.csproj|D:\\cian\\git1\\final2\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{B70216F7-3E87-4000-86F9-98F6AE40672A}|final2\\final2.csproj|solutionrelative:final2\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FormInstallations.cs [Design]",
+              "DocumentMoniker": "D:\\cian\\git1\\final2\\FormInstallations.cs",
+              "RelativeDocumentMoniker": "final2\\FormInstallations.cs",
+              "ToolTip": "D:\\cian\\git1\\final2\\FormInstallations.cs [Design]",
+              "RelativeToolTip": "final2\\FormInstallations.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-27T13:27:21.1Z",
+              "EditorCaption": " [Design]",
+              "OwnerCaption": "%2"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FormInventory.cs [Design]",
+              "DocumentMoniker": "D:\\cian\\git1\\final2\\FormInventory.cs",
+              "RelativeDocumentMoniker": "final2\\FormInventory.cs",
+              "ToolTip": "D:\\cian\\git1\\final2\\FormInventory.cs [Design]",
+              "RelativeToolTip": "final2\\FormInventory.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-27T12:31:45.705Z",
+              "EditorCaption": " [Design]",
+              "OwnerCaption": "%2"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FormPaymentLog.cs [Design]",
+              "DocumentMoniker": "D:\\cian\\git1\\final2\\FormPaymentLog.cs",
+              "RelativeDocumentMoniker": "final2\\FormPaymentLog.cs",
+              "ToolTip": "D:\\cian\\git1\\final2\\FormPaymentLog.cs [Design]",
+              "RelativeToolTip": "final2\\FormPaymentLog.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-27T12:32:06.45Z",
+              "EditorCaption": " [Design]",
+              "OwnerCaption": "%2"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FormNewSale.cs [Design]",
+              "DocumentMoniker": "D:\\cian\\git1\\final2\\FormNewSale.cs",
+              "RelativeDocumentMoniker": "final2\\FormNewSale.cs",
+              "ToolTip": "D:\\cian\\git1\\final2\\FormNewSale.cs [Design]",
+              "RelativeToolTip": "final2\\FormNewSale.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-27T12:32:03.424Z",
+              "EditorCaption": " [Design]",
+              "OwnerCaption": "%2"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FormNewSale.cs",
+              "DocumentMoniker": "D:\\cian\\git1\\final2\\FormNewSale.cs",
+              "RelativeDocumentMoniker": "final2\\FormNewSale.cs",
+              "ToolTip": "D:\\cian\\git1\\final2\\FormNewSale.cs",
+              "RelativeToolTip": "final2\\FormNewSale.cs",
+              "ViewState": "AgIAAAICAAAAAAAAAAAAAHQBAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-27T12:32:54.515Z",
+              "EditorCaption": "",
+              "OwnerCaption": "%2"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FormCustomers.cs [Design]",
+              "DocumentMoniker": "D:\\cian\\git1\\final2\\FormCustomers.cs",
+              "RelativeDocumentMoniker": "final2\\FormCustomers.cs",
+              "ToolTip": "D:\\cian\\git1\\final2\\FormCustomers.cs [Design]",
+              "RelativeToolTip": "final2\\FormCustomers.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-27T12:31:36.104Z",
+              "EditorCaption": " [Design]",
+              "OwnerCaption": "%2"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "FormLogin.cs",
+              "DocumentMoniker": "D:\\cian\\git1\\final2\\FormLogin.cs",
+              "RelativeDocumentMoniker": "final2\\FormLogin.cs",
+              "ToolTip": "D:\\cian\\git1\\final2\\FormLogin.cs",
+              "RelativeToolTip": "final2\\FormLogin.cs",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAowEsAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-27T15:34:34.06Z",
+              "EditorCaption": "",
+              "OwnerCaption": "%2"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "FormLogin.cs [Design]",
+              "DocumentMoniker": "D:\\cian\\git1\\final2\\FormLogin.cs",
+              "RelativeDocumentMoniker": "final2\\FormLogin.cs",
+              "ToolTip": "D:\\cian\\git1\\final2\\FormLogin.cs [Design]",
+              "RelativeToolTip": "final2\\FormLogin.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-27T12:31:47.313Z",
+              "EditorCaption": " [Design]",
+              "OwnerCaption": "%2"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "FormFullSale.cs [Design]",
+              "DocumentMoniker": "D:\\cian\\git1\\final2\\FormFullSale.cs",
+              "RelativeDocumentMoniker": "final2\\FormFullSale.cs",
+              "ToolTip": "D:\\cian\\git1\\final2\\FormFullSale.cs [Design]",
+              "RelativeToolTip": "final2\\FormFullSale.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-27T12:31:40.918Z",
+              "EditorCaption": " [Design]",
+              "OwnerCaption": "%2"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "FormSupplierPortal.cs [Design]",
+              "DocumentMoniker": "D:\\cian\\git1\\final2\\FormSupplierPortal.cs",
+              "RelativeDocumentMoniker": "final2\\FormSupplierPortal.cs",
+              "ToolTip": "D:\\cian\\git1\\final2\\FormSupplierPortal.cs [Design]",
+              "RelativeToolTip": "final2\\FormSupplierPortal.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-27T12:32:14.152Z",
+              "EditorCaption": " [Design]",
+              "OwnerCaption": "%2"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "FormPurchaseOrders.cs [Design]",
+              "DocumentMoniker": "D:\\cian\\git1\\final2\\FormPurchaseOrders.cs",
+              "RelativeDocumentMoniker": "final2\\FormPurchaseOrders.cs",
+              "ToolTip": "D:\\cian\\git1\\final2\\FormPurchaseOrders.cs [Design]",
+              "RelativeToolTip": "final2\\FormPurchaseOrders.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-27T12:32:11.448Z",
+              "EditorCaption": " [Design]",
+              "OwnerCaption": "%2"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "FormPaymentTracker.cs [Design]",
+              "DocumentMoniker": "D:\\cian\\git1\\final2\\FormPaymentTracker.cs",
+              "RelativeDocumentMoniker": "final2\\FormPaymentTracker.cs",
+              "ToolTip": "D:\\cian\\git1\\final2\\FormPaymentTracker.cs [Design]",
+              "RelativeToolTip": "final2\\FormPaymentTracker.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-27T12:32:09.472Z",
+              "EditorCaption": " [Design]",
+              "OwnerCaption": "%2"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "FormUsers.cs [Design]",
+              "DocumentMoniker": "D:\\cian\\git1\\final2\\FormUsers.cs",
+              "RelativeDocumentMoniker": "final2\\FormUsers.cs",
+              "ToolTip": "D:\\cian\\git1\\final2\\FormUsers.cs [Design]",
+              "RelativeToolTip": "final2\\FormUsers.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-27T12:38:29.276Z",
+              "EditorCaption": " [Design]",
+              "OwnerCaption": "%2"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "FormMain.cs",
+              "DocumentMoniker": "D:\\cian\\git1\\final2\\FormMain.cs",
+              "RelativeDocumentMoniker": "final2\\FormMain.cs",
+              "ToolTip": "D:\\cian\\git1\\final2\\FormMain.cs",
+              "RelativeToolTip": "final2\\FormMain.cs",
+              "ViewState": "AgIAAHUBAAAAAAAAAAAAAKUBAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-27T14:44:15.968Z",
+              "EditorCaption": "",
+              "OwnerCaption": "%2"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "FormMain.cs [Design]",
+              "DocumentMoniker": "D:\\cian\\git1\\final2\\FormMain.cs",
+              "RelativeDocumentMoniker": "final2\\FormMain.cs",
+              "ToolTip": "D:\\cian\\git1\\final2\\FormMain.cs [Design]",
+              "RelativeToolTip": "final2\\FormMain.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-27T12:31:55.444Z",
+              "EditorCaption": " [Design]",
+              "OwnerCaption": "%2"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "FormPaymentLog.cs",
+              "DocumentMoniker": "D:\\cian\\git1\\final2\\FormPaymentLog.cs",
+              "RelativeDocumentMoniker": "final2\\FormPaymentLog.cs",
+              "ToolTip": "D:\\cian\\git1\\final2\\FormPaymentLog.cs",
+              "RelativeToolTip": "final2\\FormPaymentLog.cs",
+              "ViewState": "AgIAAFkAAAAAAAAAAAApwIoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-27T15:04:13.382Z",
+              "EditorCaption": "",
+              "OwnerCaption": "%2"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "FormFullSale.cs",
+              "DocumentMoniker": "D:\\cian\\git1\\final2\\FormFullSale.cs",
+              "RelativeDocumentMoniker": "final2\\FormFullSale.cs",
+              "ToolTip": "D:\\cian\\git1\\final2\\FormFullSale.cs",
+              "RelativeToolTip": "final2\\FormFullSale.cs",
+              "ViewState": "AgIAACcBAAAAAAAAAIAwwEMBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-27T14:51:28.388Z",
+              "EditorCaption": "",
+              "OwnerCaption": "%2"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "FormMasterData.cs [Design]",
+              "DocumentMoniker": "D:\\cian\\git1\\final2\\FormMasterData.cs",
+              "RelativeDocumentMoniker": "final2\\FormMasterData.cs",
+              "ToolTip": "D:\\cian\\git1\\final2\\FormMasterData.cs [Design]",
+              "RelativeToolTip": "final2\\FormMasterData.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-27T12:32:01.366Z",
+              "EditorCaption": " [Design]",
+              "OwnerCaption": "%2"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "App.config",
+              "DocumentMoniker": "D:\\cian\\git1\\final2\\App.config",
+              "RelativeDocumentMoniker": "final2\\App.config",
+              "ToolTip": "D:\\cian\\git1\\final2\\App.config",
+              "RelativeToolTip": "final2\\App.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2026-11-27T13:11:21.174Z",
+              "EditorCaption": "",
+              "OwnerCaption": "%2"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "FormCustomers.cs",
+              "DocumentMoniker": "D:\\cian\\git1\\final2\\FormCustomers.cs",
+              "RelativeDocumentMoniker": "final2\\FormCustomers.cs",
+              "ToolTip": "D:\\cian\\git1\\final2\\FormCustomers.cs",
+              "RelativeToolTip": "final2\\FormCustomers.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAjwCIAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-27T13:11:29.073Z",
+              "EditorCaption": "",
+              "OwnerCaption": "%2"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "DatabaseHelper.cs",
+              "DocumentMoniker": "D:\\cian\\git1\\final2\\DatabaseHelper.cs",
+              "RelativeDocumentMoniker": "final2\\DatabaseHelper.cs",
+              "ToolTip": "D:\\cian\\git1\\final2\\DatabaseHelper.cs",
+              "RelativeToolTip": "final2\\DatabaseHelper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABTAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-27T13:11:56.149Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

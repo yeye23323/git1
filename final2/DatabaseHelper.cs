@@ -7,7 +7,7 @@ namespace test1
     public static class DatabaseHelper
     {
         // Universal connection string for local Microsoft SQL Server Express
-        public static string ConnectionString = @"Server=.\SQLEXPRESS;Database=RAC_DB;Integrated Security=True;TrustServerCertificate=True;";
+        public static string ConnectionString = @"Server=DESKTOP-TJJ99FG\SQLEXPRESS;Database=RAC_DB;Integrated Security=True;TrustServerCertificate=True;";
 
         public static SqlConnection GetConnection()
         {

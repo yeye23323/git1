@@ -1,6 +1,7 @@
 using System;
 using System.Data;
 using System.Data.SqlClient;
+using System.Text.RegularExpressions;
 using System.Windows.Forms;
 
 namespace test1
@@ -22,7 +23,8 @@ namespace test1
         {
             if (cmbTerms.Items.Count > 0) cmbTerms.SelectedIndex = 2; 
             dtpContractDate.Value = DateTime.Now;
-
+            numericUpDown1.ValueChanged += (s, ev) => UpdateSummaryLabels(GetCurrentDownPayment());
+            numericUpDown1.TextChanged += (s, ev) => UpdateSummaryLabels(GetCurrentDownPayment());
             LoadCustomers();
             LoadBrandFilter();
             LoadAvailableACUnits();
@@ -292,14 +294,20 @@ namespace test1
             if (string.IsNullOrEmpty(raw)) return 0m;
             return decimal.TryParse(raw, out decimal val) ? Math.Max(0m, val) : nudDownPayment.Value;
         }
+        private decimal GetTotalPayable(decimal balance, int months)
+        {
+            decimal ratePercent = numericUpDown1.Value;
+            return balance + (balance * (ratePercent / 100m) * months);
+        }
 
         private void UpdateSummaryLabels(decimal downPayment)
         {
             decimal balance = Math.Max(0m, unitPrice - downPayment);
-            lblRemainingBalance.Text = "₱" + balance.ToString("N2");
-
             int months = GetSelectedMonths();
-            decimal monthlyDue = months > 0 ? Math.Round(balance / months, 2) : 0m;
+            decimal totalPayable = GetTotalPayable(balance, months);
+            decimal monthlyDue = months > 0 ? Math.Round(totalPayable / months, 2) : 0m;
+
+            lblRemainingBalance.Text = "₱" + totalPayable.ToString("N2");
             lblMonthlyDue.Text = "₱" + monthlyDue.ToString("N2") + " / month";
         }
 
@@ -308,7 +316,8 @@ namespace test1
             decimal downPayment = GetCurrentDownPayment();
             decimal balance = Math.Max(0m, unitPrice - downPayment);
             int months = GetSelectedMonths();
-            decimal monthlyDue = months > 0 ? Math.Round(balance / months, 2) : 0m;
+            decimal totalPayable = GetTotalPayable(balance, months);
+            decimal monthlyDue = months > 0 ? Math.Round(totalPayable / months, 2) : 0m;
 
             UpdateSummaryLabels(downPayment);
 
@@ -322,7 +331,13 @@ namespace test1
             for (int i = 1; i <= months; i++)
             {
                 DateTime dueDate = startDate.AddMonths(i);
-                dt.Rows.Add("Month " + i, dueDate.ToString("MMM dd, yyyy"), "₱" + monthlyDue.ToString("N2"), "Scheduled");
+
+                // Last month absorbs rounding so the preview adds up to totalPayable
+                decimal amountDue = i == months
+                    ? totalPayable - (monthlyDue * (months - 1))
+                    : monthlyDue;
+
+                dt.Rows.Add("Month " + i, dueDate.ToString("MMM dd, yyyy"), "₱" + amountDue.ToString("N2"), "Scheduled");
             }
 
             dgvSchedulePreview.DataSource = dt;
@@ -355,6 +370,14 @@ namespace test1
 
         private void btnSaveContract_Click(object sender, EventArgs e)
         {
+            //validate contact number format
+            if (!Regex.IsMatch(txtContactNumber.Text.Trim(), @"^09[0-9]{9}$"))
+            {
+                MessageBox.Show("Contact number must be 11 digits, numbers only, and start with 09 (e.g. 09171234567).", "Validation", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                txtContactNumber.Focus();
+                return;
+            }
+
             if (selectedItemId <= 0)
             {
                 MessageBox.Show("Please select an AC unit from the inventory.", "Validation", MessageBoxButtons.OK, MessageBoxIcon.Warning);
@@ -498,11 +521,28 @@ namespace test1
             {
                 MessageBox.Show("Failed to save installment contract: " + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
+
+
         }
 
         private void btnCancel_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void lblRemainingBalance_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblInterestRate_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void numericUpDown1_ValueChanged(object sender, EventArgs e)
+        {
+            UpdateSummaryLabels(GetCurrentDownPayment());
         }
     }
 }

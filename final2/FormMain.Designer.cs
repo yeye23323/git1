@@ -59,6 +59,9 @@ namespace test1
             this.lblCountContracts = new System.Windows.Forms.Label();
             this.grpMetricStock = new System.Windows.Forms.GroupBox();
             this.lblCountStock = new System.Windows.Forms.Label();
+            this.btnSearch = new System.Windows.Forms.Button();
+            this.txtSearch = new System.Windows.Forms.TextBox();
+            this.lblSearch = new System.Windows.Forms.Label();
             this.pnlSidebar.SuspendLayout();
             this.pnlSubAdmin.SuspendLayout();
             this.pnlSubProcurement.SuspendLayout();
@@ -493,6 +496,9 @@ namespace test1
             // 
             // pnlDashboard
             // 
+            this.pnlDashboard.Controls.Add(this.btnSearch);
+            this.pnlDashboard.Controls.Add(this.txtSearch);
+            this.pnlDashboard.Controls.Add(this.lblSearch);
             this.pnlDashboard.Controls.Add(this.dgvUpcomingDues);
             this.pnlDashboard.Controls.Add(this.lblUpcomingTitle);
             this.pnlDashboard.Controls.Add(this.grpMetricOverdue);
@@ -642,6 +648,32 @@ namespace test1
             this.lblCountStock.TabIndex = 0;
             this.lblCountStock.Text = "0";
             // 
+            // btnSearch
+            // 
+            this.btnSearch.Location = new System.Drawing.Point(934, 170);
+            this.btnSearch.Name = "btnSearch";
+            this.btnSearch.Size = new System.Drawing.Size(80, 24);
+            this.btnSearch.TabIndex = 7;
+            this.btnSearch.Text = "Search";
+            this.btnSearch.UseVisualStyleBackColor = true;
+            // 
+            // txtSearch
+            // 
+            this.txtSearch.Location = new System.Drawing.Point(687, 171);
+            this.txtSearch.Name = "txtSearch";
+            this.txtSearch.Size = new System.Drawing.Size(240, 20);
+            this.txtSearch.TabIndex = 6;
+            this.txtSearch.TextChanged += new System.EventHandler(this.txtSearch_TextChanged);
+            // 
+            // lblSearch
+            // 
+            this.lblSearch.AutoSize = true;
+            this.lblSearch.Location = new System.Drawing.Point(636, 174);
+            this.lblSearch.Name = "lblSearch";
+            this.lblSearch.Size = new System.Drawing.Size(44, 13);
+            this.lblSearch.TabIndex = 8;
+            this.lblSearch.Text = "Search:";
+            // 
             // FormMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -720,5 +752,8 @@ namespace test1
         private System.Windows.Forms.DataGridViewTextBoxColumn colDueDate;
         private System.Windows.Forms.DataGridViewTextBoxColumn colAmountDue;
         private System.Windows.Forms.DataGridViewTextBoxColumn colContact;
+        private System.Windows.Forms.Button btnSearch;
+        private System.Windows.Forms.TextBox txtSearch;
+        private System.Windows.Forms.Label lblSearch;
     }
 }
